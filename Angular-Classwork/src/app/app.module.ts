@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyComponentComponent } from './Intro-to-Angular/my-component/my-component.component';
 import { catecomponent } from './Intro-to-Angular/Cate-component/cate-component';
+import { InterpolationComponent } from './BASICS/Data-binding/interpolation/interpolation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyComponentComponent,
-    catecomponent
+    catecomponent,
+    InterpolationComponent
   ],
   imports: [
     BrowserModule,
