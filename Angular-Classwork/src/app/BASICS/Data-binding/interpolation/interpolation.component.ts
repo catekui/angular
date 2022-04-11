@@ -14,7 +14,9 @@ export class InterpolationComponent implements OnInit {
    }
 
   constructor() { 
-    setTimeout
+    setTimeout(() =>{
+      this.name = "interpolation Component 2,0,0";
+    }, 4000);
   }     
 
   ngOnInit(): void {

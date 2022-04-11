@@ -7,6 +7,7 @@ import { MyComponentComponent } from './Intro-to-Angular/my-component/my-compone
 import { catecomponent } from './Intro-to-Angular/Cate-component/cate-component';
 import { InterpolationComponent } from './BASICS/Data-binding/interpolation/interpolation.component';
 import { PropertyBindingComponent } from './BASICS/property-binding/property-binding.component';
+import { EventBindingComponent } from './BASICS/Data-binding/event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { PropertyBindingComponent } from './BASICS/property-binding/property-bin
     catecomponent,
     InterpolationComponent,
     PropertyBindingComponent,
+    EventBindingComponent,
   ],
   imports: [
     BrowserModule,
