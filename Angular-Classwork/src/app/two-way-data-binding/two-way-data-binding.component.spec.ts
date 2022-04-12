@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventBindingComponent } from './event-binding.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding.component';
 
-describe('EventBindingComponent', () => {
-  let component: EventBindingComponent;
-  let fixture: ComponentFixture<EventBindingComponent>;
+describe('TwoWayDataBindingComponent', () => {
+  let component: TwoWayDataBindingComponent;
+  let fixture: ComponentFixture<TwoWayDataBindingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EventBindingComponent ]
+      declarations: [ TwoWayDataBindingComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventBindingComponent);
+    fixture = TestBed.createComponent(TwoWayDataBindingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

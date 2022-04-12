@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
   clicks= 0;
-  someText="string"
+  myText:string = ""
   constructor() { }
  
 
@@ -17,13 +17,11 @@ export class EventBindingComponent implements OnInit {
   myCoolButtonClicked(){
     console.log ("this button has been clicked")
     this.clicks++;
-    
 
   }
   showInput(el: any){
     console.log(el.target.value)
-    this.someText 
-
+    this.myText = el.target.value
   }
   
 

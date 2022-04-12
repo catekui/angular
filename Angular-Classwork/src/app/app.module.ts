@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,7 +8,8 @@ import { MyComponentComponent } from './Intro-to-Angular/my-component/my-compone
 import { catecomponent } from './Intro-to-Angular/Cate-component/cate-component';
 import { InterpolationComponent } from './BASICS/Data-binding/interpolation/interpolation.component';
 import { PropertyBindingComponent } from './BASICS/property-binding/property-binding.component';
-import { EventBindingComponent } from './BASICS/Data-binding/event-binding/event-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +19,10 @@ import { EventBindingComponent } from './BASICS/Data-binding/event-binding/event
     InterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
+    TwoWayDataBindingComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, FormsModule,
     AppRoutingModule
   ],
   providers: [],
